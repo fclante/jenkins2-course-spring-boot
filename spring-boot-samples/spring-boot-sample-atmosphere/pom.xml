@@ -18,13 +18,11 @@
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
-	<dependencies>
-	<dependency>
-  <groupId>org.jacoco</groupId>
-  <artifactId>jacoco-maven-plugin</artifactId>
-  <version>0.8.3</version>
-  <type>maven-plugin</type>
-</dependency>
+	<dependencies>	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
